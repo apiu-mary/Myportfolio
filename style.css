@@ -21,6 +21,8 @@ body{
     margin: auto;
     padding: 20px 0;
     align-items: center;
+    color: white;
+    font-size: large;
     justify-content: space-between;
 }
 nav ul li{
@@ -28,12 +30,22 @@ nav ul li{
     list-style: none;
     margin: 10px 20px;
 }
- nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+nav ul li a{
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  font-size: 20px;
+    
 
  }
+ 
+ .connect{
+  color: orangered;
+ }
+ 
+ 
+ 
+ 
  nav ul li a:hover{
     color: red;
 
@@ -44,7 +56,7 @@ nav ul li{
 
  } 
  .detel h1{
-    font-size: 50px;
+    font-size: 100px;
     color: cornflowerblue;
     margin-bottom: 20px;
 
@@ -55,6 +67,7 @@ nav ul li{
  }
  .detel p{
     color: gray;
+    font-size: 30px;
     line-height: 22px;
  }
  .detel a{
@@ -95,6 +108,7 @@ nav ul li{
     height: 80%;
     position: absolute;
     bottom: 0;
+    margin-bottom: 150px;
     right: 100px;
     margin-right: 20%;
  }
@@ -104,10 +118,23 @@ nav ul li{
     left: 50%;
     bottom: 0;
     transform: translateX(-50);
-    transition: bottom 1s,left 1s;
+    tra.e-commerce, .mobile-app, .api {
+      padding: 20px;
+      height: 100px;
+      margin: 10px;
+      width: 300px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Update box-shadow values */
+      border-radius: 20px; /* Update border-radius value */
+    } 
+    nsition: bottom 1s,left 1s;
  }
  .images {
    animation: moveImage 1s infinite alternate;
+ }
+ .about{
+   margin-left: 130px;
+   margin-top: 90px;
+   color: white;
  }
  
  @keyframes moveImage {
@@ -129,8 +156,40 @@ nav ul li{
 body{
    overflow: scroll;
    overflow-x: hidden;
+   background-color: #171B26;
 }
- 
+
+
+
+.all {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust the gap as needed for space between divs */
+}
+.container {
+  margin-top: 50px; /* Adjust the margin value as needed */
+}
+
+.box{
+  padding: 30px;
+  height: 150px;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center;
+  background-color: #292C3E;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  
+}
+.box:hover, .box.clicked {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 
 @media only screen and (max-width: 767px) {
