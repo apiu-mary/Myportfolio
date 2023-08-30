@@ -163,11 +163,11 @@ body{
 
 .all {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Adjust the gap as needed for space between divs */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
 }
 .container {
-  margin-top: 50px; /* Adjust the margin value as needed */
+  margin-top: 50px; 
 }
 
 .box{
@@ -193,7 +193,7 @@ body{
 
 
 @media only screen and (max-width: 767px) {
-   /* Styles for phones */
+   
    .nav {
        flex-direction: column;
        align-items: flex-start;
@@ -212,5 +212,10 @@ body{
        display: none;
    }
 } 
+
+  
+
+
+
 
   
